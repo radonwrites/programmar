@@ -1,0 +1,22 @@
+For the excerise paired with this reflection, I decided to experiment with syntax and language
+As you will see in my notes, it's an area that is causing confusion for me - what words matter and what words don't?
+What is defined? What do I need to define? And what needs no definition?
+I didn't think anything fit in that last category,
+but then I replaced words like "sequence" and "result" with "brew" and "spell"
+This is something I still need to wrap my brain around.
+
+One thing I do appreciate with the set-up we have in VSCode with Jupyter Notebook is the ease with which we can experiment and make mistakes.
+I have a hard time focusing on some of the readings, but being able to test it without worrying I'm going to irrevicably break something
+and with immediate (if sometimes vague) feedback on if there's a problem, is massively beneficial.
+
+As may be evidenced by my project, I was intrigued and amused by the notion of cultural references in programs.
+The idea is unsurprising, given that people are writing them, but something I wanted to investigate.
+While I've not yet come across a scholarly article on the subject, my search led me to this article:
+https://www.americanscientist.org/article/cultures-of-code
+
+It addresses the various lens through which people may engage with coding, the recent swell in interest in learning to code, 
+and what may be gained or lost through this diversity and growth. While I don't fully side with the self-ascribed sentimentality and 
+concern over potential loss when many new coders may not engage as deeply in theory as the author would like, I overall appreciated their
+perspective. In particular, they raised the question of agendas - noting that as the variable that sets people doing seemingly similar coding
+on very seperate paths. What are their goals, and where do their goals align or deviate? It makes me curious to know more about the agendas
+that drove some of the more prominant figures and developments in programming, and how those agendas shaped this growing field as we know it today.
