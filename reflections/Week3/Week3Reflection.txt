@@ -1,0 +1,13 @@
+As with before, most of my comments on my project/pracitices are literally comments in the project. Overall, I wanted to do more cool things with strings but I haven't quite figured out what specifically everything does and how to avoid the errors (of my ways)
+
+In terms of troubles, I would say the biggest two factors in my slow progress and confusion would be: 1) time, and 2) learning multiple programs at once. The first I can resolve with better time management, 
+factoring in more time to read and practice than I had been. I'm not sure where all that time will go on my schedule at the moment, but I'll find space!
+For the second, because I am taking Physical Computing and also now teaching a course in HTML and CSS, there are suddenly several languages fighting for learning space in my brain that are similar but different in details.
+Originally, I thought it would be great to pair Physical Computing and Programming. For the most part I still think it is, but I didn't expect the differences in language to throw me off as much as they have so far.
+
+I may be taking a loose interpretation of "project of an academic nature" here, but I recently came across a call for writers for "Wonder Stories" a new app designed to host interactive stories for 'reluctant readers' in 3rd grade.
+One of the points made was that many children were not engaged in early chapter books, and were not learning or developing a love of reading. The goal is to create 'inquiry based narratives' where the readers are required to read carefully and are then given a selection of options to choose from (based on their observations) to progress.
+The idea they express is that children are more motivated by problem solving, so they are trying to layer this with reading. This is of personal interest to me, I want to learn more about the different ways interactive fiction can be applied with measurable benefit. Since the reading introduced conditionals, I was reminded of this project/product, and how 
+these kind of stories might be programmed. One of the key points in their 'writing guidelines' is not to create 'yes/no' answers, so just one 'true/false' Boolean test wouldn't suffice, though incorporating more than one, and adding conditionals, may provide something more meaningful.
+Perhaps the reader needs to click and 'inspect' and object, and only if they do will that option be presented to them when they are asked a question. For example, if the question is "what's under the rug?", they would actually need to inspect the rug to find out. I know how to do this in Ink, and it feels like the transition to Python might not be so different, but at the same time I suspect there is a lot more to it than I currently understand.
+https://www.wonderstories.app/
