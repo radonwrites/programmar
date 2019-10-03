@@ -7,6 +7,6 @@ This project led me to do a little research on generative art, and I came across
 compelling visual displays. One of the more memorable points of the interview was the central role errors take in the creation process.
 I think one mental hurdle I need(ed) to overcome in coding was the fear of getting errors. The computer or program is not (probably) going to explode, and I am not a failure.
 In learning to code, it's easy to get errors and I've honestly found it's better to get them. I want to understand why something does or doesn't work, and it's easier for me to test these concepts through errors and constant testing.
-Generative art was a fun way to make this connection, as I've learned over the years to accept mistakes in other mediums, and often they lead to a better outcome than originally planned. However, I realized I had not fully applied this notion to coding until recently.
+Generative art was a fun way to make this connection, as I've learned over the years to accept mistakes (or, 'happy accidents') in other mediums, and often they lead to a better outcome than originally planned. However, I realized I had not fully applied this notion to coding until recently.
 
 Interview here: https://www.artnome.com/news/2018/8/8/generative-art-finds-its-prodigy
