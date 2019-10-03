@@ -17,6 +17,7 @@
 #
 # Updated 31 May 2018 to add compatibility with Python 3 (Python 2 still works)
 
+#%%
 from random import choice
 
 subjects = ['COUNT', 'STRANGER', 'LOOK', 'CHURCH', 'CASTLE', 'PICTURE',
@@ -27,14 +28,23 @@ predicates = ['OPEN', 'SILENT', 'STRONG', 'GOOD', 'NARROW', 'NEAR',
               'LARGE', 'OLD', 'ANGRY']
 conjunctions = [' AND ', ' OR ', ' THEREFORE ', '. ', '. ', '. ', '. ', '. ']
 operators = ['A', 'EVERY', 'NO', 'NOT EVERY']
+verb = ['SWEATS','RUNS','SITS','PACES','LEANS','PONDERS']
+adv = ['SILENT','HAUGHTY','MOROSE','STUNNED']
 
+# trying to modify this so that, if the text is about a person, an action is added. Currently it seems to be added regardless of the 'if/elif/else' not sure why yet
 def phrase():
     text = choice(operators) + ' ' + choice(subjects)
     if text == 'A EYE':
         text = 'AN EYE'
+    elif text == 'A FARMER' or 'A GUEST' or 'A LABOURER' or'A COUNT':
+        text = text + ' ' + choice(verb) + ', ' + choice(adv)
+        return text + '.'
     return text + ' IS '
 
 print('')
 print(phrase() + choice(predicates) + choice(conjunctions) +
        phrase() + choice(predicates) + '.')
 print('')
+
+
+#%%
