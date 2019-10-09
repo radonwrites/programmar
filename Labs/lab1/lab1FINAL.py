@@ -360,7 +360,7 @@ import random
 
 def sum_randomness(x):
     import random
-    value = 0
+    y = 0
     for value in range(x):
         value = random.randint(1,100)
         y = value + random.randint(1,100)
@@ -371,3 +371,12 @@ def sum_randomness(x):
 
 #%%
 
+
+def sum_randomness(x):
+    import random
+    y = 0
+    for value in range(0,x):
+        y = y + random.randint(1,100)
+        print(value)
+        print(y)
+    return y
