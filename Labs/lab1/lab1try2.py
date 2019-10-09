@@ -77,7 +77,6 @@ type(5) # Will print the "int" to the console.
 a = 5
 #%% 
 # If you enter a variable without first defining it, you will receive a NameError:
-b
 # QUESTION: even if I delete the definition, it still holds??
 #%%
 
@@ -363,9 +362,9 @@ def sum_randomness(x):
     import random
     for value in range(x):
         y = random.randint(1,100)
-        value = y + y
+        value = (y + y)*x
         
-        return y
+        return value
             
 
 #%%
