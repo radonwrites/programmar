@@ -360,11 +360,13 @@ import random
 
 def sum_randomness(x):
     import random
+    value = 0
     for value in range(x):
-        y = random.randint(1,100)
-        value = (y + y)*x
-        
-        return value
+        value = random.randint(1,100)
+        y = value + random.randint(1,100)
+        print(value)
+        print(y)
+    return y * x
             
 
 #%%
