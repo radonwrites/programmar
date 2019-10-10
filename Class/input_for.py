@@ -28,3 +28,9 @@ for line in open("in-class/week-6/problems.txt", "r"):
         continue
     total += 1
 print("You scored " + str(score) + " out of " + str(total) + " or " + str(float(score)/float(total)*100.0) + "%")
+
+# 'try' handles potential errors, except runs an alternative to getting an error
+# you can make 'except' handle only specific errors (NameError, ValueError, etc)
+# useful when you don't know what environment your program will be run in/what's going to happen
+# generally only want a page at most of code in a function
+# computers are great at integers but suck at fractions, it does approximations with floating points - it's compressing it before doing the math

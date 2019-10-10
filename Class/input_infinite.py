@@ -21,6 +21,7 @@ def quiz_question():
 
 score = 0
 total = 0
+# while loop iterates until something makes it false?
 while(True):
     try:
         if(quiz_question()):
