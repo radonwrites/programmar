@@ -1,0 +1,9 @@
+I was intrigued by Monfort's mention of binary gender built into the code he shows, and his brief mention of how computers have been used to maintain 'traditional categories'.
+I'm sure there's a lot more research to be done here, but one article I did come across was a call-to-action to encourage more diversity in technology and leadership positions, and voiced concerns about
+further reinforcement of gender bias in the development of AI and with machine learning. It's disturbing to think about how problematic categorization and inherent bias may become even more hidden and deeply engrained in this increasingly ubiquitous technology, but at the 
+same time I found the alarm and need for change unsurprising (even more cause for concern).
+
+I really struggled with the last part of the lab, and what frustrates me further is I can't figure out why I'm having so much trouble with it. I'm pretty sure I understand the concept of 'for' and variables, and I get what it's supposed to do, but the idea of adding x number of numbers together is really throwing me.
+I made a few functions that are returning numbers, but when I used print() to check what the numbers being added were, it only added to my confusion. I will probably try to stop in during office hours, but have not had any overlapping free time since the assignment.
+
+Article: https://www.ey.com/en_us/workforce/are-we-coding-gender-bias-into-our-future
