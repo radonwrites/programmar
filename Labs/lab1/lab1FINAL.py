@@ -370,9 +370,11 @@ def sum_randomness(x):
             
 
 #%%
+# added prints to try to figure out what is happening within the function
+# really confused by the numbers I'm getting - it looks like it's working but pretty sure it isn't at all
+# I know none of these are right, but I wanted to submit on time
 
-
-def sum_randomness(x):
+def sum_randumb(x):
     import random
     y = 0
     for value in range(0,x):
