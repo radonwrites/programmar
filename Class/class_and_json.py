@@ -42,8 +42,23 @@ color = (10,50,50,255)
 ourimage = Image.new(mode, size, color)
 ourimage
 #%%
-ourimage.putpixel((50,50),(255,255,255,100))
+import random
+
+for x in range(ourimage.size[0]):
+    for y in range(ourimage.size[1]):
+        value = random.randint(0,255)
+        ourimage.putpixel((x,y),(value,255,255,100))
 ourimage
+
+#%%
+for x in range(ourimage.size[0]):
+    for y in range(ourimage.size[1]):
+        value = float(x)/ourimage.size[0]
+        value = int(value*255)
+        ourimage.putpixel((x,y),(value,value,value,255))
+ourimage
+#%%
+ourimage.getpixel((59,50))
 #%%
 # a byte is 8-bits (255 is number of bytes in 8bit or something)
 # check if PIL can support 16-bit?
