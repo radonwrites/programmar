@@ -5,9 +5,9 @@ from PIL import Image
 def wordpix(image, x, y):
     for x in range():
         for y in range(): 
-            value = float(y)/ourimage.size[0]
+            #value = float(y)/ourimage.size[0]
             value = int(value*255)
-            ourimage.putpixel((x,y),(value,value,value,255))
+            #ourimage.putpixel((x,y),(value,value,value,255))
 
 
 mode = 'RGBA'

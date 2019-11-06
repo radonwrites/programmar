@@ -7,4 +7,4 @@ I decided to try just making an image. One color at first, and then some sort of
 So, here are the (updated) steps I was planning for this:
 1. Create an image cell-by-cell (done)
 2. Create a pattern or modification to function, different from the gradient, noise, or single pixel line as done before (not yet successful)
-3. Translate function into one that creates a grid of letters
+3. Translate function into one that creates a grid of letters (nope)
