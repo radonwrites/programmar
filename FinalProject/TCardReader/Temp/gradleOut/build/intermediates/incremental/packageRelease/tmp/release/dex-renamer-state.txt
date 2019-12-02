@@ -1,4 +1,0 @@
-#Sun Dec 01 23:17:55 EST 2019
-base.0=/Users/racheldonley/Documents/\#UCF/Fall19/Programming/programmar/FinalProject/TCardReader/Temp/gradleOut/build/intermediates/transforms/dexMerger/release/0
-path.0=classes.dex
-renamed.0=classes.dex
