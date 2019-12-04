@@ -6,6 +6,8 @@ Actual product: Random words (from an array) appear on paper when you place a ta
 
 This is in some steps a little closer to a bigger picture goal, and helps substantiate the idea of incorporating physical artifacts into something that could be strictly digital.
 
+** The code I wrote is in all "RTGen" files, and "TextAppear" (not used in the app currently). I used references and resources online to find the right terms to use. "CameraFocus" is something I found online, source in the comments. Without it, the camera doesn't autofocus which was an issue.
+
 I could write a novel (no prompts needed) about all the problems I ran into. What's frustrating is, had I done everything correctly from the start, what took hours/days would have maybe, maaaaybe taken only an hour. Or less. Though I suppose this is the nature of learning to code.
 
 The biggest challenges I faced were:
