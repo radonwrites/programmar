@@ -2,20 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System;
 [System.Runtime.InteropServices.ComVisible(true)]
 [System.Serializable]
 //public class Random
 
 public class RTGen : MonoBehaviour
 {
-    public virtual int Next ();
+    //public virtual int Next ();
     //public GameObject randomWord;
     //public Font font;
     //public var Word;
     // Start is called before the first frame update
     void Start()
     {
-        Random rnd = new Random();
+        System.Random rnd = new System.Random();
         string[] malePetNames = { "Rufus", "Bear", "Dakota", "Fido", 
                           "Vanya", "Samuel", "Koani", "Volodya", 
                           "Prince", "Yiska" };
@@ -29,7 +30,7 @@ public class RTGen : MonoBehaviour
 
         //bringing this from other file in case
         //var theNoun : String = aNoun[Random.Range(0, aNoun.Length)];
-        
+
         /* Display the result. (from Microsoft documentation)
         Console.WriteLine("Suggested pet name of the day: ");
         Console.WriteLine("   For a male:     {0}", malePetNames[mIndex]);
