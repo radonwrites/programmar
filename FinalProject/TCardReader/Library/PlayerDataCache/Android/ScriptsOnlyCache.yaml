@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraFocusControl
+    - RTGen
     Unity.TextMeshPro.dll:
     - TMPro.TMP_ColorGradient
     - TMPro.TMP_FontAsset
@@ -52,6 +53,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -84,6 +87,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11964}
     - Class: 114
       Script: {instanceID: 11974}
+    - Class: 114
+      Script: {instanceID: 14564}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1741,6 +1746,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 24167127d15f474d1c9e835b9ff03d96
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RTGen
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

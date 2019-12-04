@@ -16,7 +16,7 @@ public class RTGen : MonoBehaviour
     {
         // do I need ForceMeshUpdate() function for TMP?
         // Im testing with both mesh types TextMesh and TMP at the same time, not sure if good idea?
-        GetComponent<TextMeshUGUI>().text = "testing");
+        //GetComponent<TextMeshUGUI>().text = "testing");
 
         /*
         //getting this from Unity documentation on TextGenerator

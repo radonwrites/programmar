@@ -55,7 +55,7 @@ android {
     }
 
     aaptOptions {
-        noCompress = ['.unity3d', '.ress', '.resource', '.obb', 'vuforia/tcards.dat', 'vuforia/tcards.xml', 'vuforia/vuforiamars_images.dat', 'vuforia/vuforiamars_images.xml']
+        noCompress = ['.unity3d', '.ress', '.resource', '.obb', 'vuforia/tcards.dat', 'vuforia/tcards.xml', 'vuforia/vuforiamars_images.dat', 'vuforia/vuforiamars_images.xml', 'vuforia/vuforiamars_modeltarget.dat', 'vuforia/vuforiamars_modeltarget.xml']
         ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~"
     }
 
