@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\CameraFocusControl.cs" />
      <Compile Include="Assets\RTGen.cs" />
+     <Compile Include="Assets\RTGenPro.cs" />
      <Compile Include="Assets\TextAppear.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />

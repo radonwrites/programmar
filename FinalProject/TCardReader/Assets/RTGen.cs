@@ -9,14 +9,18 @@ using TMPro;
 public class RTGen : MonoBehaviour
 {
     //public GameObject randomWord;
-    public Font font;
+    //public Font font;
     //public var Word;
     // Start is called before the first frame update
     void Start()
     {
         // do I need ForceMeshUpdate() function for TMP?
         // Im testing with both mesh types TextMesh and TMP at the same time, not sure if good idea?
-        //GetComponent<TextMeshUGUI>().text = "testing");
+        GetComponent<TextMesh>().text = "testing";
+        //GameObject randomWord;
+        //TextMesh word = GameObject.GetComponent<TextMeshPro>();
+
+        //word.text = "hello!";
 
         /*
         //getting this from Unity documentation on TextGenerator
