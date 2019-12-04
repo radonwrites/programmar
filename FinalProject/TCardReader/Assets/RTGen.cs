@@ -18,16 +18,12 @@ public class RTGen : MonoBehaviour
     void Start()
     {
         System.Random rnd = new System.Random();
-        string[] malePetNames = { "Rufus", "Bear", "Dakota", "Fido", 
-                          "Vanya", "Samuel", "Koani", "Volodya", 
-                          "Prince", "Yiska" };
-        string[] femalePetNames = { "Maggie", "Penny", "Saya", "Princess", 
-                            "Abby", "Laila", "Sadie", "Olivia", 
-                            "Starlight", "Talla" };                                      
+        string[] words = { "feat", "always", "shot", "green", "hail", "dark", 
+                        "carapace", "oblivious", "forewarned", "isolate", "menial",
+                        "prodded", "whim", "never"};                                     
 
         // Generate random indexes for pet names.
-        int mIndex = rnd.Next(malePetNames.Length);
-        int fIndex = rnd.Next(femalePetNames.Length);
+        int wIndex = rnd.Next(words.Length);
 
         //bringing this from other file in case
         //var theNoun : String = aNoun[Random.Range(0, aNoun.Length)];
@@ -40,7 +36,7 @@ public class RTGen : MonoBehaviour
 
         // do I need ForceMeshUpdate() function for TMP?
         // Im testing with both mesh types TextMesh and TMP at the same time, not sure if good idea?
-        GetComponent<TextMesh>().text = femalePetNames[fIndex];
+        GetComponent<TextMesh>().text = words[wIndex];
         //GameObject randomWord;
         //TextMesh word = GameObject.GetComponent<TextMeshPro>();
 
