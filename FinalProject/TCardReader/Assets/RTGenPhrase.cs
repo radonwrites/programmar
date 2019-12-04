@@ -12,7 +12,8 @@ public class RTGenPhrase : MonoBehaviour
     {
         System.Random rnd = new System.Random();
         string[] phrase = { "a little lost", "he nodded", "I thought so", "frantic, racing", 
-                            "shrugging, she", "sopping wet", "not knowing what to expect"};                                      
+                            "shrugging, she", "sopping wet", "not knowing what to expect",
+                            "all over the place", "it was fine", "not panicking", "no worries"};                                      
 
         int phIndex = rnd.Next(phrase.Length);
 

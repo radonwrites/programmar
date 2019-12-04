@@ -20,7 +20,8 @@ public class RTGen : MonoBehaviour
         System.Random rnd = new System.Random();
         string[] words = { "feat", "always", "shot", "green", "hail", "dark", 
                         "carapace", "oblivious", "forewarned", "isolate", "menial",
-                        "prodded", "whim", "never"};                                     
+                        "prodded", "whim", "never", "hot", "arid", "moth", "lapse", "jarring",
+                        "albatross", "known", "kind", "essence"};                                     
 
         // Generate random indexes for pet names.
         int wIndex = rnd.Next(words.Length);
