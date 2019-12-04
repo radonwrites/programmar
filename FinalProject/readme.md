@@ -1,3 +1,5 @@
+Final build is: TCardReader/actualandriodtest1.apk
+
 Original plan: Create an AR app that would overlay words on a blank piece of paper, serving as the little push we writers need to actually start marking up a blank page sometime. Ideally the words can come from a bank of user generated inputs, and even more ideally the final result can be captured though an in-app camera button, or something like Google Lens can read the data and put it in a document.
 
 The overall objective here was to create an interactive writing prompt system and tackle the daunting blank page (though the writer still has to be the one to make a permanent mark upon it)
@@ -16,6 +18,8 @@ The biggest challenges I faced were:
 - TextMesh + writing text inputs through code
 - making text random
 - getting ideas but not getting too sidetracked by them
+
+Plus Unity crashed a few times, but that wasn't entirely surprising or a major hurdle.
 
 Next steps
 - maybe make cards more random and have multiple cards read at once
