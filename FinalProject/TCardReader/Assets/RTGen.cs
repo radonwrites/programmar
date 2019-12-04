@@ -9,6 +9,7 @@ using System;
 
 public class RTGen : MonoBehaviour
 {
+    //all these I made to try to fix errors, except font
     //public virtual int Next ();
     //public GameObject randomWord;
     //public Font font;
