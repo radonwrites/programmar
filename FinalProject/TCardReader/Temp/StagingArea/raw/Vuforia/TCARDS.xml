@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="back" size="0.063500 0.117333" />
+    <ImageTarget name="bateleur" size="0.063500 0.119372" />
+    <ImageTarget name="junon" size="0.063500 0.120262" />
+    <ImageTarget name="chariot" size="0.063500 0.119048" />
+    <ImageTarget name="imperatrice" size="0.063500 0.117828" />
+    <ImageTarget name="mat" size="0.063500 0.119630" />
+    <ImageTarget name="monde" size="0.063500 0.118726" />
     <ImageTarget name="IMG_20191204_144414" size="0.127000 0.074793" />
     <ImageTarget name="decclip" size="0.228600 0.320989" />
     <ImageTarget name="prompt" size="0.127000 0.077042" />
