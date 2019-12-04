@@ -17,6 +17,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     Vuforia.UnityExtensions.dll:
     - Vuforia.ImageTargetBehaviour
     - Vuforia.TurnOffBehaviour
@@ -58,31 +59,31 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 10306}
+      Script: {instanceID: 10308}
     - Class: 114
-      Script: {instanceID: 10464}
+      Script: {instanceID: 10466}
     - Class: 114
-      Script: {instanceID: 10564}
+      Script: {instanceID: 10566}
     - Class: 114
-      Script: {instanceID: 10586}
-    - Class: 114
-      Script: {instanceID: 10594}
+      Script: {instanceID: 10588}
     - Class: 114
       Script: {instanceID: 10596}
     - Class: 114
-      Script: {instanceID: 11312}
+      Script: {instanceID: 10598}
     - Class: 114
-      Script: {instanceID: 11346}
+      Script: {instanceID: 11314}
     - Class: 114
-      Script: {instanceID: 11364}
+      Script: {instanceID: 11348}
     - Class: 114
-      Script: {instanceID: 11552}
+      Script: {instanceID: 11366}
     - Class: 114
-      Script: {instanceID: 11840}
+      Script: {instanceID: 11554}
     - Class: 114
-      Script: {instanceID: 11962}
+      Script: {instanceID: 11842}
     - Class: 114
-      Script: {instanceID: 11972}
+      Script: {instanceID: 11964}
+    - Class: 114
+      Script: {instanceID: 11974}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -150,6 +151,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TextAppear
   - hash:
       serializedVersion: 2
       Hash: 72712369a7c681ad84fc255a5ec0b333
@@ -1737,4 +1744,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/racheldonley/Documents/#UCF/Fall19/Programming/programmar/FinalProject/TCardReader/actualandroidtest.apk
+  playerPath: /Users/racheldonley/Documents/#UCF/Fall19/Programming/programmar/FinalProject/TCardReader/actualandroidtest1.apk
