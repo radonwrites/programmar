@@ -8,15 +8,37 @@ using TMPro;
 
 public class RTGen : MonoBehaviour
 {
+    public virtual int Next ();
     //public GameObject randomWord;
     //public Font font;
     //public var Word;
     // Start is called before the first frame update
     void Start()
     {
+        Random rnd = new Random();
+        string[] malePetNames = { "Rufus", "Bear", "Dakota", "Fido", 
+                          "Vanya", "Samuel", "Koani", "Volodya", 
+                          "Prince", "Yiska" };
+        string[] femalePetNames = { "Maggie", "Penny", "Saya", "Princess", 
+                            "Abby", "Laila", "Sadie", "Olivia", 
+                            "Starlight", "Talla" };                                      
+
+        // Generate random indexes for pet names.
+        int mIndex = rnd.Next(malePetNames.Length);
+        int fIndex = rnd.Next(femalePetNames.Length);
+
+        //bringing this from other file in case
+        //var theNoun : String = aNoun[Random.Range(0, aNoun.Length)];
+        
+        /* Display the result. (from Microsoft documentation)
+        Console.WriteLine("Suggested pet name of the day: ");
+        Console.WriteLine("   For a male:     {0}", malePetNames[mIndex]);
+        Console.WriteLine("   For a female:   {0}", femalePetNames[fIndex]);
+        */
+
         // do I need ForceMeshUpdate() function for TMP?
         // Im testing with both mesh types TextMesh and TMP at the same time, not sure if good idea?
-        GetComponent<TextMesh>().text = "testing";
+        GetComponent<TextMesh>().text = femalePetNames[fIndex];
         //GameObject randomWord;
         //TextMesh word = GameObject.GetComponent<TextMeshPro>();
 
