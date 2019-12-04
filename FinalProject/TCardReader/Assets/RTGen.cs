@@ -14,7 +14,9 @@ public class RTGen : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<TextMeshProUGUI>().text = "testing";
+        // do I need ForceMeshUpdate() function for TMP?
+        // Im testing with both mesh types TextMesh and TMP at the same time, not sure if good idea?
+        GetComponent<TextMeshUGUI>().text = "testing");
 
         /*
         //getting this from Unity documentation on TextGenerator
