@@ -79,7 +79,7 @@ a = 5
 # If you enter a variable without first defining it, you will receive a NameError:
 # QUESTION: even if I delete the definition, it still holds??
 #%%
-
+b = 3
 # *ON YOUR OWN:* Assign an integer to the variable `b` above so that no error
 # will result and re-run this cell.
 try:
