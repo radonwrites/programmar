@@ -54,8 +54,8 @@ def img(x,y,r,g,b,a):
     color = (r,g,b,a)
     image = Image.new('RGBA',(x,y),color)
     half = int(x/2)
-    for x in range(half):
-        for y in range(y):
+    for y in range(half):
+        for x in range(y):
             #shade = int(r*10) - this doesn't seem to do anything, also tried shade = (r/2,g/2,b/2,a) but needed to make an integer so decided to work with just one first
             #image.putpixel((x,y), shade)
             tint = int(g*2)
